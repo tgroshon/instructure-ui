@@ -8,6 +8,10 @@
     "replace": "@instructure/ui-core/lib/components/Text"
   },
   {
+    "pattern": "^@instructure/ui-core/lib/components/Text",
+    "replace": "@instructure/ui-elements/lib/components/Text"
+  },
+  {
     "pattern": "^@instructure/ui-core/lib/components/Autocomplete",
     "replace": "@instructure/ui-forms/lib/components/Select"
   },
@@ -138,10 +142,6 @@
   {
     "pattern": "^@instructure/ui-core/lib/components/Tag",
     "replace": "@instructure/ui-elements/lib/components/Tag"
-  },
-  {
-    "pattern": "^@instructure/ui-core/lib/components/Text",
-    "replace": "@instructure/ui-elements/lib/components/Text"
   },
   {
     "pattern": "^@instructure/ui-core/lib/components/TimeInput",
